@@ -1,32 +1,41 @@
-read -p "Enter The Number into Unit place" number
-case "${#number}" in
+#!/bin/bash -x
+#please enter the four digit number
+read -p "Enter the number into unit place" number1
+case "${#number1}" in
+	#Printing  the unit place
 1)	
-	echo $number in unit 1 place;;
+	echo $number1 in unit 1 place
+	;;
+	#printing the 10th place
 2)
-	num=$((number%10))
-	echo $num in unit 1 place
-	number=$((number/10))
-	echo $number in unit 10 place;;
+	number2=$((number1%10))
+	echo $number2 in unit 1 place
+	number1=$((number1/10))
+	echo $number1 in unit 10 place
+	;;
+	#printing the 100th place 
 3)
-	num=$(($number%10))
-	echo $num in unit 1 place
-	number=$(($number/10))
-	num=$(($number%10))
-	echo $num in 10 place
-	number=$(($number/10))
-	num=$(($number%10))
-	echo $num in 100 place;;
+	number2=$(($number1%10))
+	echo $number2 in unit 1 place
+	number1=$(($number1/10))
+	number2=$(($number1%10))
+	echo $number2 in 10 place
+	number1=$(($number1/10))
+	number2=$(($number1%10))
+	echo $number2 in 100 place	
+   ;;
+	#print the 1000th place
 4)
-	num=$(($number%10))
-	echo $num in  unit 1 place
-	number=$(($number/10))
-	num=$(($number%10))
-	echo $num in 10 place
-	number=$(($number/10))
-	num=$(($number%10))
-	echo $num in 100 place
-	number=$((number/10))
-	echo $number in  1000
+	number2=$(($number1%10))
+	echo $number2 in  unit 1 place
+	number1=$(($number1/10))
+	number2=$(($number1%10))
+	echo $number2 in 10 place
+	number1=$(($number1/10))
+	number2=$(($number1%10))
+	echo $number2 in 100 place
+	number1=$((number1/10))
+	echo $number1 in 1000 place
 	;;
 esac
 
