@@ -24,7 +24,7 @@ case "${#number1}" in
 	number2=$(($number1%10))
 	echo $number2 in 100 place	
    ;;
-	#print the 1000th place
+	#printing the 1000th place
 4)
 	number2=$(($number1%10))
 	echo $number2 in  unit 1 place
