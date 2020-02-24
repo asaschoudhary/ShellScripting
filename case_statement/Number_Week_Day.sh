@@ -1,20 +1,32 @@
 #!/bin/bash
 echo "enter The Number"
 read number
-
 case $number in
 	0)
-		echo "Sunday";;
+	echo "Sunday"
+	;;
+
 	1)	
-		echo "Monday";;
+	echo "Monday"
+	;;
+
 	2)
-		echo "Tuesday";;
+	echo "Tuesday"
+	;;
+
 	3)
-		echo "Wednesday";;
+	echo "Wednesday"
+	;;
+
  	4)
-		echo "Thrusday";;
+	echo "Thrusday"
+	;;
+
 	5)	
-		echo "Friday";;
+	echo "Friday"
+	;;
+
 	6)
-		echo "Saturday";;
+	 echo "Saturday"
+	;;
 esac
