@@ -1,7 +1,6 @@
 #!/bin/bash
 echo "Enter The Number"
 read number
-
 case $number in
 	0)	
    	echo "Zero";;
