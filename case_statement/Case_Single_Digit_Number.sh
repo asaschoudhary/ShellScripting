@@ -2,27 +2,38 @@
 echo "Enter The Number"
 read number
 case $number in
-	0)	
-   		echo "Zero";;
+	0)
+   	echo "Zero"
+		;;
 	1)
-		echo "One";;
+		echo "One"
+		;;
 	2)
-		echo "Two";;
+		echo "Two"
+		;;
 	3)
-		echo "three";;
+		echo "Three"
+		;;
 	4)
-		echo "Four";;
+		echo "Four"
+		;;
 	5)
-		echo "Five";;
+		echo "Five"
+		;;
 	6)
-		echo "Six";;
+		echo "Six"
+		;;
 	7)
-		echo "Seven";;
+		echo "Seven"
+		;;
 	8)
-		echo "Eight";;
+		echo "Eight"
+		;;
 	9)
-		echo "Nine";;
+		echo "Nine"
+		;;
 	10)
-		echo "Ten";;
+		echo "Ten"
+		;;
 esac
 		
