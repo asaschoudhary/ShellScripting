@@ -3,7 +3,7 @@ echo "Enter The Number"
 read number
 case $number in
 	0)	
-   	echo "Zero";;
+   		echo "Zero";;
 	1)
 		echo "One";;
 	2)
@@ -25,7 +25,4 @@ case $number in
 	10)
 		echo "Ten";;
 esac
-
-
-
-
+		
