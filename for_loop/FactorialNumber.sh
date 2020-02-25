@@ -1,5 +1,6 @@
 #!/bin/bash +x
 echo "Enter The Number"
+#Take a input
 read number2
 fact=1
 	for (( number1=1; number1<=number2; number1++ ))
