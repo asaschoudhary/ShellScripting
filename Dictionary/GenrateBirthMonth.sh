@@ -23,7 +23,7 @@ case  $month in
 		name3[$count3]=$name
 		count3=$((count3 + 1))
 		birthmonth[$month]=${name3[@]}
-			;;
+		;;
 	4)
 		name4[$count4]=$name
 		count4=$((count4 + 1))
@@ -47,7 +47,7 @@ case  $month in
 	8)
 		name8[$count8]=${name8[@]}
 		count8=$((count8 + 1))
-         	birthmonth[$month]=${name8[@]}
+		birthmonth[$month]=${name8[@]}
 		;;
 	9)
 		name9[$count9]=${name9[@]}
@@ -70,7 +70,7 @@ case  $month in
 		birthmonth[$month]=${name12[@]}
 		;;
 	*)
-		echo "it is not a valid  number"
+		echo "It is not a valid  number"
 		;;
 	esac
 done
