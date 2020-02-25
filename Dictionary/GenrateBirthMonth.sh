@@ -47,8 +47,8 @@ case  $month in
 	8)
 		name8[$count8]=${name8[@]}
 		count8=$((count8 + 1))
-         birthmonth[$month]=${name8[@]}
-			;;
+         	birthmonth[$month]=${name8[@]}
+		;;
 	9)
 		name9[$count9]=${name9[@]}
 		count9=$((count9 + 1))
